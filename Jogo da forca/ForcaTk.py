@@ -32,7 +32,7 @@ class JogoDaForca:
         self.exibir_forca()
 
     def escolher_palavra(self):
-        palavras = ['cachorro', 'papagaio', 'gato', 'avestruz', 'camelo', 'canguru', 'abelha', 'rato', 'hipopotamo', 'macaco', 'rinoceronte', 'panda']
+        palavras = ['desenvolvimento', 'tecnologia', 'logica', 'progrmacao', 'python', 'hardware', 'software', 'teclado', 'aplicacao', 'meta', 'ciencia', 'web']
         return random.choice(palavras)
 
     def exibir_forca(self):
