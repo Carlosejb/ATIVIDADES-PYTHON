@@ -9,7 +9,7 @@ class JogoDaForca:
         self.palavra = self.escolher_palavra()
         self.palavra_oculta = ['_'] * len(self.palavra)
         self.letras_tentadas = []
-        self.tentativas = 1
+        self.tentativas = 0
         
         self.frame_palavra = tk.Frame(self.master)
         self.frame_palavra.pack()
@@ -38,7 +38,6 @@ class JogoDaForca:
     def exibir_forca(self):
         # Lista de strings representando as fases da forca
         fases_forca = [
-            "",
             "   ____\n"
             "  |        |\n"
             "           |\n"
